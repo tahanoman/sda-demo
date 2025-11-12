@@ -1,0 +1,20 @@
+# env & secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/IDE
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Docker volumes (local)
+deployment_app-db-data/
+deployment_chroma-data/
+
